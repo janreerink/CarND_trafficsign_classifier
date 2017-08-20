@@ -31,13 +31,8 @@ The goals / steps of this project are the following:
 [image8]: ./new_imgs/rightofwayjpg.jpg "Augmented dataset"
 [image9]: ./new_imgs/stop.jpg "Augmented dataset"
 
+[image10]: ./examples/features.png "Feature maps"
 
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -196,6 +191,8 @@ with 93%) there is a 6% probability for the correct label. It looks like the mod
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
+![alt text][image10]
 
 The jupyter notebook shows the filters for the 120 km/h sign. The feature maps seem show the circular shape on the traffic sign as well as the numbers contained within. Some of the maps appear to be more or less random though.
 
