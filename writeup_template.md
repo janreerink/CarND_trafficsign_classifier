@@ -27,8 +27,8 @@ The goals / steps of this project are the following:
 
 [image5]: ./new_imgs/120.jpg "Augmented dataset"
 [image6]: ./new_imgs/animalcrossing.jpg "Augmented dataset"
-[image7]: ./new_imgs/constructiopn.jpg "Augmented dataset"
-[image8]: ./new_imgs/rightofway.jpg "Augmented dataset"
+[image7]: ./new_imgs/construction.jpg "Augmented dataset"
+[image8]: ./new_imgs/rightofwayjpg.jpg "Augmented dataset"
 [image9]: ./new_imgs/stop.jpg "Augmented dataset"
 
 
@@ -113,7 +113,6 @@ later for calculating probabilities using softmax:
 | RELU					|												|
 | Dropout				| Drops keep_prob percent of neurons            |
 | Fully connected		| Outputs 43x1									|
-|:---------------------:|:---------------------------------------------:|
 
 
 ####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
@@ -181,7 +180,6 @@ Here are the results of the prediction:
 | Construction 			| Construction                                  |
 | Right of Way  		| Right of Way									|
 | Stop  	      		| Stop      					 				|
-|:---------------------:|:---------------------------------------------:| 
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. Given the test set accuracy of 95% this does not appear to be a great result. It is possible that the preprocessing
@@ -198,6 +196,7 @@ with 93%) there is a 6% probability for the correct label. It looks like the mod
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
 The jupyter notebook shows the filters for the 120 km/h sign. The feature maps seem show the circular shape on the traffic sign as well as the numbers contained within. Some of the maps appear to be more or less random though.
 
 
